@@ -1,0 +1,129 @@
+.border-bottoms{
+    border-bottom: 1px solid rgb(153, 150, 150);
+    margin: 5%;
+}
+
+.jumbotron{
+    height: 100vh;
+    position: relative;
+    background-image: url("https://i.pinimg.com/564x/55/14/44/551444fd05b9a530ec037a03a55ef46e.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(17, 111, 117, 0.85);
+    z-index: 1;
+}
+
+.jumbotron > .container {
+    position: relative;
+    font-weight: bold;
+    top: 35%;
+    z-index: 4;
+    color: white;
+    font-weight: normal;
+}
+
+.jumbotron > .container > .lead{
+    font-size: 2rem;
+}
+.jumbotron > .container > .h1{
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+.jumbotron > .angle-dow{
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    color: white;
+    background-color: #222222;
+    text-align: center;
+    z-index: 6;
+}
+
+.section-white{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.me{
+    font-size: 30px;
+}
+
+.me_img{
+    max-height: 219px;
+    max-width: 200px;
+    background-color: rgb(0, 128, 128);
+}
+
+.section-gray{
+    height: auto;
+    background-color: rgb(238, 228, 238);
+}
+
+.card{
+    position: relative;
+    max-height: 612px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.card-img-overlay--primary {
+    background-color: rgba(17, 111, 117, 0.85);
+}
+
+.card-img-overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.card-img-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.card-img-overlay:hover {
+    opacity: 1;
+}
+
+.card-img-overlay:hover > * {
+    transform: translateY(0);
+}
+
+.footer{
+    height: auto;
+    background-color: #434242;
+    color: white;
+}
+
+.footer > .container > .blockquote{
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}

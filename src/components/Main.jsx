@@ -19,7 +19,7 @@ export const Main = () => (
                             </div>
                         </div>
                         <div class="card border-0">
-                            <img src="/image/me.png" class="me_img mx-auto rounded-circle z-depth-2" alt="me" />
+                            <img src="https://bit.ly/3xowLv1" class="me_img mx-auto rounded-circle z-depth-2" alt="me" />
                         </div>
                         <div class="card border-0">
                             <div class="card-body">
@@ -267,7 +267,7 @@ export const Main = () => (
                     </div>
                     <div class="text-center">
                         <p class="text-muted">This project is build on languages Java Backend and frontend.</p>
-                        <button class="btn btn-info btn-long">See project on github</button>
+                        <a href="https://github.com/Nghiapro-97/BookStoreWebSite" class="btn btn-info btn-long text-decoration-none">See project on github</a>
                     </div>
                 </div>
             </div>
@@ -284,7 +284,7 @@ export const Main = () => (
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
                                 <a href="https://book-store-171.herokuapp.com/">
-                                    <img src="/image/EvergreenBook.jpg" class="card-img" alt="project" />
+                                    <img src="https://bit.ly/2TuusYE" class="card-img" alt="project" />
                                     <div class="card-img-overlay card-img-overlay--primary">
                                         <h5 class="card-title border-bottom">E-Commerce Bookstore website( frontend page ).</h5>
                                         <p class="card-text">this is a web page to buy books online for customer.</p>
@@ -304,7 +304,7 @@ export const Main = () => (
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
                                 <a href="https://book-store-171.herokuapp.com/admin/">
-                                    <img src="/image/EB_Admin.png" class="card-img" alt="project" />
+                                    <img src="https://bit.ly/3gzSqcE" class="card-img" alt="project" />
                                     <div class="card-img-overlay card-img-overlay--primary">
                                         <h5 class="card-title border-bottom">E-Commerce Bookstore website( Backend page).</h5>
                                         <p class="card-text my-3">this is a web page for Admin.</p>
@@ -323,7 +323,7 @@ export const Main = () => (
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
-                                <img src="/image/Drum_kit.png" class="card-img" alt="project" />
+                                <img src="https://bit.ly/3gtxy6Z" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">Game Drum kit</h5>
                                     <p class="card-text my-3">this is game online. PC drumming beats on virtual drum kits. Play Hip hop drum kits and beats for drums online.</p>
@@ -334,7 +334,7 @@ export const Main = () => (
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
-                                <img src="/image/Simon.png" class="card-img" alt="project" />
+                                <img src="https://bit.ly/3pXu8xB" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">Game Simon</h5>
                                     <p class="card-text my-3">The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. It's fast-paced play, with lights and sounds that can challenge you. Experience the fun as you repeat the patterns and advance to higher levels.</p>
@@ -345,7 +345,7 @@ export const Main = () => (
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
-                                <img src="/image/Profile.png" class="card-img" alt="project" />
+                                <img src="https://bit.ly/3gntWol" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">My Profile</h5>
                                     <p class="card-text my-3">this is a web page profile.</p>

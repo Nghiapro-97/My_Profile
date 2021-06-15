@@ -4,7 +4,7 @@ export const Main = () => (
     <div class="main" id="main">
         <div className="section-white" id="profile">
             <div class="container">
-                <div class="py-3 text-center">
+                <div class="py-5 text-center">
                     <p class=" display-4 text-info mb-0">Profile</p>
                     <p class="me text-black-50 border-bottoms pb-3 m-3">I'm a creative Java webdeveloper</p>
                     <div class="card-group my-5 text-left">
@@ -323,7 +323,7 @@ export const Main = () => (
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
-                                <a href="https://book-store-171.herokuapp.com/admin/">
+                                <a href="https://nghiapro-97.github.io/Game_Drum_kit/">
                                 <img src="https://bit.ly/3gtxy6Z" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">Game Drum kit</h5>

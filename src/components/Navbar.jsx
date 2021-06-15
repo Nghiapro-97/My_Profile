@@ -1,31 +1,33 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from "react-scroll";
 
-export const Nav = () => (
+export const Navbars = () => (
     <div className="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-            <a class="navbar-brand" href="#home">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav text-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#profile">Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experiences">Experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#abilities">Abilities</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
+        <Navbar bg="light" expand="lg" fixed="top">
+            <Navbar.Brand href="#home">
+    <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}><h4>Home</h4></Link>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mx-auto py-2 fs-3">
+                    <Nav.Link>
+                        <Link activeClass="active" to="profile" spy={true} smooth={true} offset={-70} duration={400}><h5>Profile</h5></Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" to="experiences" spy={true} smooth={true} offset={-70} duration={400}><h5>Experiences</h5></Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" to="abilities" spy={true} smooth={true} offset={-70} duration={400}><h5>Abilities</h5></Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={400}><h5>Projects</h5></Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}><h5>Contact</h5></Link>
+                    </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     </div>
 );

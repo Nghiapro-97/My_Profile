@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Main = () => (
     <div class="main" id="main">
-        <div className="section-white">
+        <div className="section-white" id="profile">
             <div class="container">
                 <div class="py-3 text-center">
                     <p class=" display-4 text-info mb-0">Profile</p>
@@ -36,7 +36,7 @@ export const Main = () => (
                 </div>
             </div>
         </div>
-        <div className="section-gray">
+        <div className="section-gray" id="experiences">
             <div class="container">
                 <div class="py-5">
                     <p class="text-center display-4 text-info mb-0">Experiences</p>
@@ -64,7 +64,7 @@ export const Main = () => (
                 </div>
             </div>
         </div>
-        <div className="section-white">
+        <div className="section-white" id="abilities">
             <div class="container">
                 <div class="py-5">
                     <p class="text-center display-4 text-info mb-0">Abilities</p>
@@ -134,7 +134,7 @@ export const Main = () => (
                                         <i class="fas fa-star text-primary text-primary"></i>
                                         <i class="fas fa-star text-primary text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
                                 </li>
@@ -188,7 +188,7 @@ export const Main = () => (
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
                                 </li>
@@ -266,13 +266,13 @@ export const Main = () => (
                         </div>
                     </div>
                     <div class="text-center">
-                        <p class="text-muted">This project is build on languages Java Backend and frontend.</p>
-                        <a href="https://github.com/Nghiapro-97/BookStoreWebSite" class="btn btn-info btn-long text-decoration-none">See project on github</a>
+                        <p class="text-muted">Please visit my github page.</p>
+                        <a href="https://github.com/Nghiapro-97/" class="btn btn-info btn-long text-decoration-none">See project on github</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="section-gray">
+        <div className="section-gray" id="projects">
             <div class="container">
                 <div class="py-5">
                     <p class="text-center display-4 text-info mb-0">Projects</p>
@@ -323,6 +323,7 @@ export const Main = () => (
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
+                                <a href="https://book-store-171.herokuapp.com/admin/">
                                 <img src="https://bit.ly/3gtxy6Z" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">Game Drum kit</h5>
@@ -330,10 +331,12 @@ export const Main = () => (
                                     <p class="card-text">Tags:</p>
                                     <p class="card-text">HTML5, CSS3, JavaScrip</p>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
+                                <a href="https://nghiapro-97.github.io/Game_Simon/">
                                 <img src="https://bit.ly/3pXu8xB" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">Game Simon</h5>
@@ -341,10 +344,12 @@ export const Main = () => (
                                     <p class="card-text">Tags:</p>
                                     <p class="card-text">HTML5, CSS3, JavaScrip</p>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
+                            <a href="https://nghiapro-97.github.io/My_Profile/">
                                 <img src="https://bit.ly/3gntWol" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">My Profile</h5>
@@ -352,6 +357,7 @@ export const Main = () => (
                                     <p class="card-text">Tags:</p>
                                     <p class="card-text">React, HTML5, CSS3, ReactBootstrap</p>
                                 </div>
+                            </a>
                             </div>
                         </div>
                     </div>

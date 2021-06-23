@@ -349,7 +349,7 @@ export const Main = () => (
                         </div>
                         <div class="col mb-4">
                             <div class="card bg-dark text-white h-100">
-                            <a href="https://nghiapro-97.github.io/My_Profile/">
+                            <a href="https://my-profile-07.herokuapp.com/">
                                 <img src="https://bit.ly/3gntWol" class="card-img" alt="project" />
                                 <div class="card-img-overlay card-img-overlay--primary">
                                     <h5 class="card-title border-bottom">My Profile</h5>

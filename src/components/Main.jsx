@@ -295,7 +295,7 @@ export const Main = () => (
                                             - Use JSP, JSTL, HTML5, CSS3, Javascript, jQuery and Bootstrap for the view layer.<br />
                                             - Design and manage Database with MySQL.<br />
                                             - Code unit tests with JUnit.<br />
-                                            - Package and Deploy the website with heroku and cleardb.
+                                            - Package and Deploy the website with heroku and cleardb.<br />
                                             - acount paypal test: nghiauser0@gmail.com - nghiauser0@
                                         </p>
                                     </div>
@@ -316,7 +316,7 @@ export const Main = () => (
                                             - Use JSP, JSTL, HTML5, CSS3, Javascript, jQuery and Bootstrap for the view layer.<br />
                                             - Design and manage Database with MySQL.<br />
                                             - Code unit tests with JUnit.<br />
-                                            - Package and Deploy the website with heroku and cleardb.
+                                            - Package and Deploy the website with heroku and cleardb.<br />
                                             - acount test: admin@gmail.com - admin
                                         </p>
                                     </div>

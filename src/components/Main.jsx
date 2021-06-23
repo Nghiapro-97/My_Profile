@@ -296,6 +296,7 @@ export const Main = () => (
                                             - Design and manage Database with MySQL.<br />
                                             - Code unit tests with JUnit.<br />
                                             - Package and Deploy the website with heroku and cleardb.
+                                            - acount paypal test: nghiauser0@gmail.com - nghiauser0@
                                         </p>
                                     </div>
                                 </a>
@@ -316,6 +317,7 @@ export const Main = () => (
                                             - Design and manage Database with MySQL.<br />
                                             - Code unit tests with JUnit.<br />
                                             - Package and Deploy the website with heroku and cleardb.
+                                            - acount test: admin@gmail.com - admin
                                         </p>
                                     </div>
                                 </a>

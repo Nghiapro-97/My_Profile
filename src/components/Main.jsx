@@ -47,7 +47,7 @@ export const Main = () => (
                     <h3 class="text-info font-weight-normal">Educations</h3>
                     <div class="row my-3">
                         <div class="col-sm-4">
-                            <strong>September 2015 - current</strong>
+                            <strong>September 2015 - March 2021</strong>
                         </div>
                         <div class="col-sm-8">
                             <p class="fs-4">Ho Chi Minh City University of Technology and Education</p>
@@ -94,7 +94,7 @@ export const Main = () => (
                                         <i class="fas fa-star text-primary text-primary"></i>
                                         <i class="fas fa-star text-primary text-primary"></i>
                                         <i class="fas fa-star text-primary text-primary"></i>
-                                        <i class="fas fa-star text-primary text-primary"></i>
+                                        <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
                                 </li>
@@ -104,7 +104,7 @@ export const Main = () => (
                                         <i class="fas fa-star text-primary text-primary"></i>
                                         <i class="fas fa-star text-primary text-primary"></i>
                                         <i class="fas fa-star text-primary text-primary"></i>
-                                        <i class="fas fa-star text-primary text-primary"></i>
+                                        <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
                                 </li>
@@ -143,7 +143,7 @@ export const Main = () => (
                                     <span class="">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
-                                        <i class="far fa-star"></i>
+                                        <i class="fas fa-star text-primary"></i>
                                         <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
@@ -228,7 +228,7 @@ export const Main = () => (
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
                                 </li>
@@ -238,7 +238,7 @@ export const Main = () => (
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="far fa-star"></i>
                                         <i class="far fa-star"></i>
                                     </span>
                                 </li>
@@ -320,6 +320,35 @@ export const Main = () => (
                                             - acount test: admin@gmail.com - admin
                                         </p>
                                     </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card bg-dark text-white h-100">
+                                <a href="https://proshop070.herokuapp.com/">
+                                <img src="https://bit.ly/3yCqZGG" class="card-img" alt="project" />
+                                <div class="card-img-overlay card-img-overlay--primary">
+                                    <h5 class="card-title border-bottom">ProShop website</h5>
+                                    <p class="card-text my-3">This is an online sales website.</p>
+                                    <p class="card-text">Account admin: admin@example.com</p>
+                                    <p class="card-text">Pass: 123456</p>
+                                    <p class="card-text">Account paypal test: nghiauser0@gmail.com</p>
+                                    <p class="card-text">Pass: nghiauser0@</p>
+                                    <p class="card-text">Tags:</p>
+                                    <p class="card-text">React, React Hooks, React bootstrap, Bootstrap 5, Redux, Nodejs, Express & MongoDB </p>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card bg-dark text-white h-100">
+                                <a href="https://keeper070.herokuapp.com">
+                                <img src="https://bit.ly/3r6OWmP" class="card-img" alt="project" />
+                                <div class="card-img-overlay card-img-overlay--primary">
+                                    <h5 class="card-title border-bottom">Keeper App</h5>
+                                    <p class="card-text">Tags:</p>
+                                    <p class="card-text">React, React Hooks, React bootstrap, Bootstrap 5</p>
+                                </div>
                                 </a>
                             </div>
                         </div>
